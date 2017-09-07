@@ -1,0 +1,8 @@
+{
+  "name": "skyscraper",
+  "version": "1",
+  "description": "A building management application",
+  "main": "index.js",
+  "author": "Matthew Holman",
+  "license": "MIT"
+}
