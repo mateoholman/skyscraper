@@ -6,13 +6,23 @@
   "author": "Matthew Holman",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --colors --open --config ./webpack.config.js"
+    "start": "webpack-dev-server --open"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
   },
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
     "webpack": "^3.5.6",
     "webpack-dev-server": "^2.7.1"
   },
   "dependencies": {
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   }

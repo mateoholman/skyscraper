@@ -7,7 +7,6 @@ module.exports = {
     filename: 'bundle.js'
   },
   devServer: {
-    contentBase: './build',
-    hot: true
+    contentBase: './build'
   }
 };
