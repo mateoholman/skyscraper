@@ -1,6 +1,6 @@
 {
   "name": "skyscraper",
-  "version": "1",
+  "version": "1.0.0",
   "description": "A building management application",
   "main": "index.js",
   "author": "Matthew Holman",
@@ -9,10 +9,7 @@
     "start": "webpack-dev-server --open"
   },
   "babel": {
-    "presets": [
-      "env",
-      "react"
-    ]
+    "presets": ["env", "react"]
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
